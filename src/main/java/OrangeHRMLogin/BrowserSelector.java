@@ -82,14 +82,35 @@ public class BrowserSelector extends Utils {
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }
-            }
-
-            else
-            {
+            } else {
 
                 System.out.println("Browser name is wrong: " + browser);
             }
-
         }
+            else {
+                if(browser.equalsIgnoreCase("chrome")){
+            System.setProperty("webdriver.chrome.driver","src\\test\\Resourses\\BrowserDriver\\chromedriver.exe");
+            driver = new ChromeDriver();
+        }
+        else if(browser.equalsIgnoreCase("firefox")){
+            System.setProperty("webdriver.gecko.driver","src\\test\\Resourses\\BrowserDriver\\geckodriver.exe");
+            driver = new FirefoxDriver();
+        }
+        else if(browser.equalsIgnoreCase("edge")){
+            System.setProperty("webdriver.edge.driver","src\\test\\Resourses\\BrowserDriver\\MicrosoftWebDriver.exe");
+            driver = new EdgeDriver();
+        }
+        else if(browser.equalsIgnoreCase("ie")){
+            System.setProperty("webdriver.ie.driver","src\\test\\Resourses\\BrowserDriver\\IEDriverServer.exe");
+            InternetExplorerOptions internetExplorerOptions = new InternetExplorerOptions();
+            internetExplorerOptions.setCapability(InternetExplorerDriver.IE_SWITCHES,"-private");
+//            internetExplorerOptions.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION,true);
+            internetExplorerOptions.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING,true);
+            driver = new InternetExplorerDriver(internetExplorerOptions);
+        }
+        else
+            System.out.println("Browser name is Emplty or typed wrong URL");
+        }
+
     }
 }

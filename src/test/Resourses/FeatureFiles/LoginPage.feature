@@ -1,5 +1,6 @@
+@Login
 Feature: as a user i want to use Login functionality
-  @Login
+
   Scenario Outline: User should login successfully with valid credential
     When user put valid credential "<UserName>" and "<Password>"
     And click submit button
@@ -7,6 +8,7 @@ Feature: as a user i want to use Login functionality
     Examples:
       |UserName  |Password |
       | Admin    | admin123|
+
 
     Scenario Outline: User should not login with in valid credential
       When user put in valid credential "<InvalidUserName>" and "<InvalidPassword>"
