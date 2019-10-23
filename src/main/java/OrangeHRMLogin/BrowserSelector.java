@@ -4,6 +4,7 @@ import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -18,9 +19,9 @@ import java.net.URL;
 
 public class BrowserSelector extends Utils {
     public static LoadProp loadProp = new LoadProp();
-    public static final String USERNAME =loadProp.getProperties("sauceUserName");
-    public static final String ACCESS_KEY = loadProp.getProperties("sauceAccessKey");
-    public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.eu-central-1.saucelabs.com:80/wd/hub";
+    public static final String SAUCE_USERNAME =loadProp.getProperties("sauceUserName");
+    public static final String SAUCE_ACCESS_KEY = loadProp.getProperties("sauceAccessKey");
+    public static final String URL = "http://" + SAUCE_USERNAME + ":" + SAUCE_ACCESS_KEY + "@//ondemand.eu-central-1.saucelabs.com:443/wd/hub";
 
     public static final boolean SAUCE_LAB = Boolean.parseBoolean(System.getProperty("Sauce"));
     public static final String browser = System.getProperty("browser");
@@ -37,7 +38,7 @@ public class BrowserSelector extends Utils {
 
                 FirefoxOptions browserOptions = new FirefoxOptions();
                 browserOptions.setCapability("platformName", "Windows 10");
-                browserOptions.setCapability("browserVersion", "69.0");
+                browserOptions.setCapability("browserVersion", "37.0");
                 browserOptions.setCapability("sauce:options", sauceOptions);
 
 
@@ -53,8 +54,8 @@ public class BrowserSelector extends Utils {
 
                 ChromeOptions browserOptions = new ChromeOptions();
                 browserOptions.setExperimentalOption("w3c", true);
-                browserOptions.setCapability("platformName", "Windows 7");
-                browserOptions.setCapability("browserVersion", "77.0");
+                browserOptions.setCapability("platformName", "Windows 10");
+                browserOptions.setCapability("browserVersion", "65.0");
                 browserOptions.setCapability("sauce:options", sauceOptions);
 
                 DesiredCapabilities caps = DesiredCapabilities.chrome();
@@ -68,12 +69,12 @@ public class BrowserSelector extends Utils {
                 }
 
 
-            } else if (browser.equalsIgnoreCase("Safari")) {
+            } else if (browser.equalsIgnoreCase("edge")) {
                 MutableCapabilities sauceOptions = new MutableCapabilities();
 
-                SafariOptions browserOptions = new SafariOptions();
-                browserOptions.setCapability("platformName", "macOS 10.14");
-                browserOptions.setCapability("browserVersion", "12.0");
+                EdgeOptions browserOptions = new EdgeOptions();
+                browserOptions.setCapability("platformName", "Windows 10");
+                browserOptions.setCapability("browserVersion", "18.17763");
                 browserOptions.setCapability("sauce:options", sauceOptions);
 
                 try {
@@ -88,6 +89,7 @@ public class BrowserSelector extends Utils {
 
                 System.out.println("Browser name is wrong: " + browser);
             }
+
         }
     }
 }

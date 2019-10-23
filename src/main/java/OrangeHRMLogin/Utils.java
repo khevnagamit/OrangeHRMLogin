@@ -26,9 +26,7 @@ public class Utils extends BasePage {
         String text =driver.findElement(by).getText();
         return text;
     }
-    public void assertInCorrectURL(String text) {
-        Assert.assertTrue(driver.getCurrentUrl().contains(text), "Incorrect URL");
-    }
+
     public void assertURL(String text){
         Assert.assertEquals(driver.getCurrentUrl(),text);
 

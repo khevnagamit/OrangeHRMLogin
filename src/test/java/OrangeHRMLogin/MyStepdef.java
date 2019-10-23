@@ -21,6 +21,19 @@ public class MyStepdef extends Utils {
 
     @Then("^user should able to register successfully$")
     public void user_should_able_to_register_successfully() {
-        Assert.assertTrue(true,"Welcome Admin");
+        assertURL("https://opensource-demo.orangehrmlive.com/index.php/dashboard");
+
+    }
+
+    @When("^user put in valid credential \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void userPutInValidCredentialAnd(String InvalidUserName, String InvalidPassword){
+        enterText(By.id("txtUsername"),InvalidUserName);
+        enterText(By.id("txtPassword"),InvalidPassword);
+    }
+
+    @Then("^user should not able to login and should see error message$")
+    public void userShouldNotAbleToLoginAndShouldSeeErrorMessage() {
+        assertURL("https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials");
+
     }
 }

@@ -17,7 +17,7 @@ public class Hooks extends Utils {
     @Before
     public void setUpBrowser(){
         browserSelector.setUpBrowser();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
         driver.manage().window().fullscreen();
         driver.get("https://opensource-demo.orangehrmlive.com/");
     }

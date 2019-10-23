@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54fa2000-415f-4d84-9f16-a10947c70c28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrangeHRM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/LoadProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resourses/BrowserDriver/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resourses/BrowserDriver/MicrosoftWebDriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resourses/BrowserDriver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resourses/BrowserDriver/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resourses/ScreenShots/21102019111823.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resourses/TestData/TestDataConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/BrowserSelector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/LoadProp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/OrangeHRMLogin/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/OrangeHRMLogin/MyStepdef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/OrangeHRMLogin/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/BrowserSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OrangeHRMLogin/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OrangeHRMLogin/MyStepdef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OrangeHRMLogin/MyStepdef.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="1547">
               <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
             </state>
           </provider>
@@ -59,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OrangeHRMLogin/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="345">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,16 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="238">
+              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,14 +82,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1131">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="161">
+              <caret line="81" column="51" lean-forward="true" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -125,13 +124,13 @@
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/LoadProp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdef.java" />
-        <option value="$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/RunTest.java" />
         <option value="$PROJECT_DIR$/src/test/Resourses/TestData/TestDataConfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java" />
+        <option value="$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature" />
         <option value="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java" />
       </list>
     </option>
   </component>
@@ -251,8 +250,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,15 +287,15 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RunTest1">
-    <configuration name="Scenario: User should login successfully with valid credential" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User should not login with in valid credential" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature" />
       <option name="GLUE" value="OrangeHRMLogin" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="OrangeHRM" />
-      <option name="NAME_FILTER" value="^User should login successfully with valid credential$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should login successfully with valid credential$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User should login successfully with valid credential" />
+      <option name="NAME_FILTER" value="^User should not login with in valid credential$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should not login with in valid credential$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should not login with in valid credential" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -334,7 +333,7 @@
       <option name="MAIN_CLASS_NAME" value="OrangeHRMLogin.RunTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dsauce=true" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -377,7 +376,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: User should login successfully with valid credential" />
+      <item itemvalue="Cucumber java.Scenario: User should not login with in valid credential" />
       <item itemvalue="JUnit.RunTest3" />
       <item itemvalue="JUnit.RunTest2" />
       <item itemvalue="JUnit.RunTest1" />
@@ -386,10 +385,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunTest1" />
+        <item itemvalue="Cucumber java.Scenario: User should not login with in valid credential" />
         <item itemvalue="JUnit.RunTest2" />
         <item itemvalue="JUnit.RunTest3" />
         <item itemvalue="JUnit.RunTest" />
-        <item itemvalue="Cucumber java.Scenario: User should login successfully with valid credential" />
       </list>
     </recent_temporary>
   </component>
@@ -407,49 +406,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest2 - 2019.10.22 at 00h 15m 56s.xml">
-      <configuration name="RunTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.10.22 at 00h 17m 11s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest3 - 2019.10.22 at 00h 18m 26s.xml">
-      <configuration name="RunTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.10.22 at 00h 18m 52s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest1 - 2019.10.22 at 00h 19m 49s.xml">
+    <history-entry file="RunTest1 - 2019.10.23 at 23h 56m 13s.xml">
       <configuration name="RunTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.10.22 at 23h 00m 37s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.10.22 at 23h 01m 45s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest2 - 2019.10.22 at 23h 03m 21s.xml">
-      <configuration name="RunTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest1 - 2019.10.22 at 23h 04m 09s.xml">
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 26m 24s.xml">
       <configuration name="RunTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest3 - 2019.10.22 at 23h 04m 34s.xml">
-      <configuration name="RunTest3" configurationId="JUnit" />
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 27m 21s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 29m 22s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 33m 18s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 33m 46s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 34m 50s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 35m 15s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 36m 33s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest1 - 2019.10.24 at 00h 40m 34s.xml">
+      <configuration name="RunTest1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.22024292" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.2242915" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.2534413" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5026455" side_tool="true" weight="0.2534413" />
-      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39253998" />
@@ -460,6 +458,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,24 +469,24 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.22024292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.2242915" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.2534413" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5026455" side_tool="true" weight="0.2534413" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.39253998" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39253998" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,20 +525,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OrangeHRMLogin/LoadProp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -553,13 +538,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/Resourses/ScreenShots/21102019111823.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -570,10 +548,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="1547">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OrangeHRMLogin/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -587,35 +572,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Resourses/FeatureFiles/LoginPage.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1131">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OrangeHRMLogin/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/MyStepdef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="238">
+          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OrangeHRMLogin/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OrangeHRMLogin/BrowserSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="81" column="51" lean-forward="true" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
